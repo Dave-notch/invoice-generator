@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.logo img {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+
+
+
+}
+
+.invoice-line h1 {
+    background-color: rgb(231, 92, 37);
+    height: 100px;
+    width: 58rem;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    border-radius: 50px 0;
+    padding-left: 5rem;
+    padding-top: 1.3rem;
+    font-size: 3rem;
+    margin-left: rem;
+
+}
+
+.blue-line {
+    background-color: rgb(37, 92, 231);
+    height: 30px;
+    width: 25rem;
+    border-radius: 0 50px;
+    margin-left: 32rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    margin-top: 3rem;
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    background-color: rgb(37, 92, 231);
+    width: 20rem;
+    height: 10rem;
+    padding-left: 1rem;
+}
+
+.contact {
+    padding-top: 5rem;
+}
+
+.client-info2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 92, 37);
+    width: 35rem;
+    height: 10rem;
+    padding-left: 1rem;
+    margin-left: -7.5rem;
+}
+
+.client-num {
+    padding-top: 5rem;
+}
+
+.inv-date {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    background-color: rgb(37, 92, 231);
+    width: 20rem;
+    height: 10rem;
+    padding-left: 1rem;
+    margin-left: -7rem;
+}
+
+.Date {
+    padding-top: 5rem;
+}
+
+.inv-date2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 92, 37);
+    width: 35rem;
+    height: 10rem;
+    padding-left: 1rem;
+    margin-left: -7.5rem;
+
+}
+
+.Date-input {
+    padding-top: 5rem;
+}
+
+.head-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 90%;
+    outline: none;
+    color: #fff;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 2rem;
+}
+
+td {
+    width: 30rem;
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.cell1,
+.cell2,
+.cell4 {
+    background-color: rgb(37, 92, 231);
+}
+
+.cell3,
+.cell5 {
+    background-color: rgb(231, 92, 37);
+}
+
+.cell1,
+.cell3,
+.cell4,
+.cell5 {
+    width: 10rem;
+}
+
+
+
+
+.Rcell1,
+.Rcell3,
+.Rcell4,
+.Rcell5 {
+    width: 5rem;
+
+}
+
+.Rcell2 {
+    width: 10rem;
+}
+
+.Rcell1 {
+    color: #000;
+
+}
+
+.table-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin-left: 0.5rem;
+
+}
+
+
+
+
+
+
+@media(max-width:450px) {
+    header {
+        margin: 0 2rem;
+    }
+
+    .invoice-line h1 {
+        width: 51rem;
+        margin-left: 6rem;
+    }
+
+    .blue-line {
+        width: 15;
+        margin-left: 31rem;
+    }
+
+    .info-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95rem;
+        margin: 0 2.2rem;
+    }
+
+    input {
+        font-size: 2.1rem;
+    }
+
+    .contact,
+    .client-num,
+    .Date,
+    .Date-input {
+        padding-top: 4rem;
+    }
+
+    table {
+        display: block;
+        margin-left: 12rem;
+
+        max-width: 60rem;
+    }
+
+    .cell1,
+    .cell3,
+    .cell4,
+
+    .Rcell1,
+    .Rcell3,
+    .Rcell4 {
+        max-width: 17.5rem;
+        margin-left: 2rem;
+
+
+    }
+
+    .cell5,
+    .Rcell5 {
+        max-width: 9.5rem;
+        overflow: hidden;
+    }
+
+
+
+    .table-input {
+        border-right-width: 5rem;
+
+    }
+
+
+
+
+
+
+
+}

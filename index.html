@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="invoice" class="invoice">
+        <header>
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <div class="invoice-line">
+                <h1>INVOICE</h1>
+                <div class="blue-line"></div>
+            </div>
+        </header>
+
+        <div class="info-bar">
+            <div class="client-info">
+                <span class="to">To:</span>
+                <span class="contact">contact:</span>
+            </div>
+            <div class="client-info2">
+                <span class="client-name"><input class="head-input" type="text" placeholder="enter cient name"></span>
+                <span class="client-num"><input class="head-input" type="text" placeholder="client number"></span>
+            </div>
+            <div class="inv-date">
+                <span class="inv-no">inv.No:</span>
+                <span class="Date">Date:</span>
+            </div>
+            <div class="inv-date2">
+                <span class="inv-input"><input class="head-input" type="text" placeholder="Inv.No:"></span>
+                <span class="Date-input"><input class="head-input" type="text" placeholder="Date:"></span>
+            </div>
+        </div>
+
+        <table border="2">
+            <tr>
+                <td class="cell1">No</td>
+                <td class="cell2">Items & description</td>
+                <td class="cell3">Qty</td>
+                <td class="cell4">Price</td>
+                <td class="cell5">Amount</td>
+            </tr>
+
+
+            <tr id="rows" class="rows">
+                <td id="row-num" class="Rcell1">1</td>
+                <td class="Rcell2"><input class="table-input" type="text" placeholder="enter the item name..."></td>
+                <td class="Rcell3"><input class="table-input" type="text" placeholder="item quantity..."></td>
+                <td class="Rcell4"><input class="table-input" type="text" placeholder="item price..."></td>
+                <td class="Rcell5"><input class="table-input" type="text" placeholder="Amount..."></td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
